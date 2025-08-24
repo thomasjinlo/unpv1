@@ -1,0 +1,15 @@
+CC := gcc
+CFLAGS := -std=c99 -Wall -Wextra -Wpedantic -Werror -Icommon
+LDFLAGS :=
+
+# common
+COMMON_SRCS := common/*.c
+COMMON_OBJS := $(COMMON_SRCS:.c=.o)
+
+# all programs in intro/ 
+INTRO_SRCS := $(wildcard intro/*.c)
+# build/intro/a for intro/a.c, etc
+INTRO_BINS := $(patsubst intro/%.c,build/intro/%,$(INTRO_SRCS))
+
+# default target
+all: $(INTRO_BINS)

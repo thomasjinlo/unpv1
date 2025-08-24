@@ -1,0 +1,6 @@
+#ifndef COMMON_CONSTANTS_H
+#define COMMON_CONSTANTS_H
+
+#define MAXLINE 4096
+
+#endif // COMMON_CONSTANTS_H

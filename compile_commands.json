@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/common/errors.o",
+      "common/errors.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/common/errors.c",
+    "output": "/home/functionator/code/unpv1/build/common/errors.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/intro/daytimetcpcli.o",
+      "intro/daytimetcpcli.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/intro/daytimetcpcli.c",
+    "output": "/home/functionator/code/unpv1/build/intro/daytimetcpcli.o"
+  }
+]
