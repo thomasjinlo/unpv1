@@ -21,6 +21,7 @@ static void err_doit(int errnoflag, int level, const char *fmt, va_list ap)
   vsnprintf(buf, MAXLINE, fmt, ap);
   n = strlen(buf);
 
+  printf("errno: %d\n", errno_save);
   snprintf(buf + n, MAXLINE - n, ": %s\n", strerror(errno_save));
 
   fflush(stdout);
