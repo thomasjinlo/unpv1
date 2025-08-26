@@ -46,11 +46,47 @@
       "-I.",
       "-c",
       "-o",
+      "build/intro/daytimetcpcliv6.o",
+      "intro/daytimetcpcliv6.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/intro/daytimetcpcliv6.c",
+    "output": "/home/functionator/code/unpv1/build/intro/daytimetcpcliv6.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
       "build/intro/daytimetcpsrv.o",
       "intro/daytimetcpsrv.c"
     ],
     "directory": "/home/functionator/code/unpv1",
     "file": "/home/functionator/code/unpv1/intro/daytimetcpsrv.c",
     "output": "/home/functionator/code/unpv1/build/intro/daytimetcpsrv.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/intro/daytimetcpsrvv6.o",
+      "intro/daytimetcpsrvv6.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/intro/daytimetcpsrvv6.c",
+    "output": "/home/functionator/code/unpv1/build/intro/daytimetcpsrvv6.o"
   }
 ]
