@@ -46,6 +46,24 @@
       "-I.",
       "-c",
       "-o",
+      "build/intro/daytimetcpclidns.o",
+      "intro/daytimetcpclidns.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/intro/daytimetcpclidns.c",
+    "output": "/home/functionator/code/unpv1/build/intro/daytimetcpclidns.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
       "build/intro/daytimetcpcliv6.o",
       "intro/daytimetcpcliv6.c"
     ],
