@@ -10,6 +10,7 @@
 
 static void err_doit(int errnoflag, int level, const char *fmt, va_list ap)
 {
+  // TODO: implement logging by level
   (void)errnoflag; // unused
   (void)level; // unused
 
