@@ -106,5 +106,41 @@
     "directory": "/home/functionator/code/unpv1",
     "file": "/home/functionator/code/unpv1/intro/daytimetcpsrvv6.c",
     "output": "/home/functionator/code/unpv1/build/intro/daytimetcpsrvv6.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/intro/daytimeudscli.o",
+      "intro/daytimeudscli.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/intro/daytimeudscli.c",
+    "output": "/home/functionator/code/unpv1/build/intro/daytimeudscli.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/intro/daytimeudsserv.o",
+      "intro/daytimeudsserv.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/intro/daytimeudsserv.c",
+    "output": "/home/functionator/code/unpv1/build/intro/daytimeudsserv.o"
   }
 ]
