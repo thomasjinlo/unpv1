@@ -142,5 +142,77 @@
     "directory": "/home/functionator/code/unpv1",
     "file": "/home/functionator/code/unpv1/intro/daytimeudsserv.c",
     "output": "/home/functionator/code/unpv1/build/intro/daytimeudsserv.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/sandbox/bc.o",
+      "sandbox/bc.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/sandbox/bc.c",
+    "output": "/home/functionator/code/unpv1/build/sandbox/bc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/sandbox/bfc.o",
+      "sandbox/bfc.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/sandbox/bfc.c",
+    "output": "/home/functionator/code/unpv1/build/sandbox/bfc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/sandbox/bfcv2.o",
+      "sandbox/bfcv2.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/sandbox/bfcv2.c",
+    "output": "/home/functionator/code/unpv1/build/sandbox/bfcv2.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
+      "build/sandbox/server.o",
+      "sandbox/server.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/sandbox/server.c",
+    "output": "/home/functionator/code/unpv1/build/sandbox/server.o"
   }
 ]
