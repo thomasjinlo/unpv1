@@ -28,6 +28,24 @@
       "-I.",
       "-c",
       "-o",
+      "build/intro/byteorder.o",
+      "intro/byteorder.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/intro/byteorder.c",
+    "output": "/home/functionator/code/unpv1/build/intro/byteorder.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
       "build/intro/daytimetcpcli.o",
       "intro/daytimetcpcli.c"
     ],
