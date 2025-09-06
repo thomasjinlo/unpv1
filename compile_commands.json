@@ -28,6 +28,24 @@
       "-I.",
       "-c",
       "-o",
+      "build/common/sock_ntop.o",
+      "common/sock_ntop.c"
+    ],
+    "directory": "/home/functionator/code/unpv1",
+    "file": "/home/functionator/code/unpv1/common/sock_ntop.c",
+    "output": "/home/functionator/code/unpv1/build/common/sock_ntop.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-I.",
+      "-c",
+      "-o",
       "build/intro/byteorder.o",
       "intro/byteorder.c"
     ],
